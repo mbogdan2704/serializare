@@ -9,7 +9,5 @@ corespunzator in nod_list.Dupa setez numele si id-ul.Apoi, ma duc in nodurile ad
 	Clasele NodA,nodB,NodC : Am creeat setere si ghatere care sa imi creeze/returneaza variabilele dorite(indice, Number etc). In aceste clase am pointerii catre liste, vector si set. Tot aici am si functia de createMuchie.
 	Clasa ClassList: Aceasta clasa are un pointer catre o clasa de tipul "Node".Aceasta clasa specifica un nod dintr-o lista.Clasa Node are metode de setNext,getNext etc.Clasa classList are metodele pentru get, remove etc.Clasa classSet este asemanatoare, doar ca am folosit un arbore binar pentru a stoca informatiile.Arborele este stocat dupa hashCode clasei.
 
-***Important***
-	Din enunt eu am inteles ca daca se incarca o versiune mai veche, "versiunea curenta" inseamna aceasta versiune. Adica daca din vector se incearca transformarea la lista, aceasta se va efectua si se va afisa eroare in fisierul "deserialize_cast.log".
 	Pentru fiecare nod eu am afisat prima data nodurile adiacente, pentru a fi mai usoara operatia de deserializare.Prin urmare, fiecare tag <Object> l-am inchis imediat dupa, specificand nodul curent prin
 tagul <Name>.De exemplu, daca vreau sa vad nodurile adiacente pentru nodul Marian, caut tagul <Name> Marian </Name> si apoi vad care sunt nodurile adiacente pana la urmatorul tag <Name>
